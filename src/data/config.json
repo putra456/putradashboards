@@ -1,0 +1,226 @@
+{
+  "site": {
+    "name": "Xau×Putra",
+    "tagline": "Premium Trading EA Platform",
+    "favicon": "https://i.postimg.cc/pVCw2NjM/1778327126809-019e0c8d-4a61-7565-b5ba-b5dd6c6e3fe7.png",
+    "logo": "https://i.postimg.cc/pVCw2NjM/1778327126809-019e0c8d-4a61-7565-b5ba-b5dd6c6e3fe7.png",
+    "copyright": "© 2024 Xau×Putra • Premium Quant Systems"
+  },
+  "colors": {
+    "primary": "#ffffff",
+    "accent": "#34c759",
+    "danger": "#ff6b6b",
+    "warning": "#ffc107",
+    "info": "#5ac8fa"
+  },
+  "links": {
+    "tiktok": "https://www.tiktok.com/@jeiiwaaaa?_r=1&_t=ZS-96DRrdP82K4",
+    "whatsapp": "6282230304458",
+    "whatsappMessage": "Halo Owner Xau×Putra, saya mau get access EA Premium."
+  },
+  "ea": {
+    "name": "ScalpGridHedge Premium",
+    "version": "v3.0",
+    "filename": "ScalpGridHedge_Premium.mq4",
+    "description": "Institutional-Grade Scalping + Dynamic Grid + Bi-Directional Hedging EA for MT4. Optimized for Cent Accounts on M1/M5 timeframes."
+  },
+  "about": {
+    "title": "About Dev",
+    "devName": "Xau×Putra",
+    "devSubtitle": "Premium Quant Systems",
+    "description": "Xau×Putra adalah platform EA (Expert Advisor) trading premium yang dikembangkan oleh tim quant trader berpengalaman. Fokus kami pada scalping, grid recovery, dan hedging strategy untuk menghasilkan profit konsisten di market forex & gold.",
+    "tags": ["MT4", "MQL4", "Scalping", "Grid", "Hedge"],
+    "features": [
+      { "icon": "Zap", "title": "Scalping Engine", "desc": "Fast entry/exit dengan Bollinger Bands + RSI signal" },
+      { "icon": "TrendingUp", "title": "Dynamic Grid", "desc": "ATR-based grid step dengan auto lot progression" },
+      { "icon": "Shield", "title": "Bi-Directional Hedge", "desc": "Buy & Sell basket dengan net profit closure" },
+      { "icon": "Target", "title": "Risk Management", "desc": "Daily target, stop loss, drawdown protection" },
+      { "icon": "Cpu", "title": "Session Filter", "desc": "Auto trade pada jam trading optimal" },
+      { "icon": "Award", "title": "Dashboard Live", "desc": "Real-time P&L tracking di chart MT4" }
+    ],
+    "techStack": [
+      { "label": "Platform", "value": "MetaTrader 4 (MT4)" },
+      { "label": "Language", "value": "MQL4" },
+      { "label": "Timeframe", "value": "M1 / M5" },
+      { "label": "Account", "value": "Cent Account Recommended" },
+      { "label": "Pairs", "value": "XAU/USD, EUR/USD, GBP/USD" }
+    ]
+  },
+  "updates": [
+    {
+      "date": "15 Jan 2025",
+      "version": "v3.0",
+      "changes": [
+        { "type": "feat", "text": "Bi-Directional Hedging Engine" },
+        { "type": "feat", "text": "ATR-Based Dynamic Grid Step" },
+        { "type": "feat", "text": "Real-time On-Chart Dashboard" },
+        { "type": "imp", "text": "Optimized session filter logic" },
+        { "type": "sec", "text": "Emergency equity hard stop" }
+      ]
+    },
+    {
+      "date": "10 Dec 2024",
+      "version": "v2.5",
+      "changes": [
+        { "type": "feat", "text": "Global Net Profit Closure" },
+        { "type": "feat", "text": "Daily P&L tracking" },
+        { "type": "fix", "text": "Grid lot calculation bug" },
+        { "type": "imp", "text": "Faster order execution" }
+      ]
+    },
+    {
+      "date": "22 Nov 2024",
+      "version": "v2.0",
+      "changes": [
+        { "type": "feat", "text": "Basket TP per direction" },
+        { "type": "feat", "text": "Individual scalp TP" },
+        { "type": "imp", "text": "Spread filter enhancement" },
+        { "type": "fix", "text": "Margin check on grid entry" }
+      ]
+    },
+    {
+      "date": "05 Oct 2024",
+      "version": "v1.5",
+      "changes": [
+        { "type": "feat", "text": "Bollinger Bands + RSI signal" },
+        { "type": "feat", "text": "Lot multiplier progression" },
+        { "type": "imp", "text": "Better error handling" }
+      ]
+    },
+    {
+      "date": "18 Sep 2024",
+      "version": "v1.0",
+      "changes": [
+        { "type": "feat", "text": "Initial release ScalpGridHedge" },
+        { "type": "feat", "text": "Basic grid recovery system" }
+      ]
+    }
+  ],
+  "scripts": [
+    {
+      "name": "ScalpGridHedge Premium",
+      "version": "v3.0",
+      "desc": "Scalping + Grid + Bi-Directional Hedging dengan institutional risk management.",
+      "status": "premium",
+      "file": "ScalpGridHedge_Premium.mq4"
+    },
+    {
+      "name": "ScalpGridHedge Basic",
+      "version": "v1.0",
+      "desc": "Versi dasar dengan scalping dan grid recovery tanpa hedging.",
+      "status": "free",
+      "file": "ScalpGridHedge_Basic.mq4"
+    },
+    {
+      "name": "XAU Scalper Pro",
+      "version": "v2.1",
+      "desc": "EA khusus XAU/USD dengan signal BB + RSI untuk scalping cepat.",
+      "status": "premium",
+      "file": "XAU_Scalper_Pro.mq4"
+    },
+    {
+      "name": "Session Filter Tool",
+      "version": "v1.0",
+      "desc": "Utility untuk filter trading session dengan auto close diluar jam.",
+      "status": "free",
+      "file": "SessionFilter_Tool.mq4"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Xau×Putra EA",
+      "desc": "Premium trading EA dengan scalping, grid, dan hedging strategy untuk MT4.",
+      "icon": "Zap",
+      "tags": ["MT4", "MQL4", "Trading"],
+      "status": "live",
+      "url": "/dashboard",
+      "visitText": "Open"
+    },
+    {
+      "name": "Signal Bot Telegram",
+      "desc": "Bot signal trading otomatis dengan notifikasi real-time ke Telegram.",
+      "icon": "Bot",
+      "tags": ["Python", "Telegram", "API"],
+      "status": "beta"
+    },
+    {
+      "name": "Portfolio Tracker",
+      "desc": "Dashboard tracking portfolio crypto & forex dengan chart real-time.",
+      "icon": "Database",
+      "tags": ["Next.js", "Chart.js", "Free"],
+      "status": "coming"
+    },
+    {
+      "name": "Trade Journal App",
+      "desc": "Aplikasi jurnal trading untuk mencatat dan analisa setiap trade.",
+      "icon": "Smartphone",
+      "tags": ["React", "PWA", "Free"],
+      "status": "coming"
+    },
+    {
+      "name": "Indicator Pack",
+      "desc": "Kumpulan custom indicator MT4 gratis: Trend, Volume, Momentum.",
+      "icon": "Code2",
+      "tags": ["MQL4", "Free", "Indicators"],
+      "status": "live"
+    },
+    {
+      "name": "Backtest Tool",
+      "desc": "Tool backtesting strategy dengan visualisasi equity curve.",
+      "icon": "Gamepad2",
+      "tags": ["Python", "Pandas", "Free"],
+      "status": "beta"
+    }
+  ],
+  "nav": {
+    "items": [
+      { "key": "/dashboard", "label": "Home", "icon": "Home" },
+      { "key": "/dashboard/about", "label": "About", "icon": "Info" },
+      { "key": "/dashboard/updates", "label": "Updates", "icon": "Clock" },
+      { "key": "/dashboard/scripts", "label": "Scripts", "icon": "FileCode2" },
+      { "key": "/dashboard/profile", "label": "Profile", "icon": "User" }
+    ],
+    "centerButton": {
+      "label": "Other Projects",
+      "badge": "FREE",
+      "icon": "Layers",
+      "url": "/dashboard/projects"
+    }
+  },
+  "login": {
+    "title": "Xau×Putra",
+    "subtitle": "Premium Trading EA Platform",
+    "showGetAccess": true,
+    "getAccessText": "Belum punya akun? Hubungi owner untuk mendapatkan akun dan full access EA Premium dengan setup & support.",
+    "getAccessButton": "Get Access via WhatsApp"
+  },
+  "home": {
+    "welcomeTitle": "Welcome",
+    "showTiktokStep": true,
+    "tiktokTitle": "Step 1 — Follow TikTok",
+    "tiktokDesc": "Follow TikTok owner @jeiiwaaaa untuk mendapatkan akses EA Premium. Setelah follow, klik Confirm Follow.",
+    "tiktokButton": "Open TikTok",
+    "tiktokConfirmButton": "Confirm Follow",
+    "scriptTitle": "Step 2 — Get EA Script",
+    "scriptDesc": "Setelah follow TikTok, klik tombol dibawah untuk melihat dan download script EA Premium.",
+    "scriptButton": "Get EA Script",
+    "accessTitle": "Get Access",
+    "accessDesc": "Hubungi owner untuk full access, setup, dan support EA Premium.",
+    "accessButton": "Chat Owner via WhatsApp"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "subtitle": "User Management",
+    "showUserList": true,
+    "showAddUser": true,
+    "showDeleteUser": true,
+    "showStats": true
+  },
+  "visible": {
+    "about": true,
+    "updates": true,
+    "scripts": true,
+    "projects": true,
+    "profile": true
+  }
+}
