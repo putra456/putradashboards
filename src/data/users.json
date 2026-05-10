@@ -1,0 +1,14 @@
+[
+  {
+    "username": "admin",
+    "password": "admin",
+    "role": "admin",
+    "premium": true
+  },
+  {
+    "username": "buyer",
+    "password": "buyer",
+    "role": "buyer",
+    "premium": false
+  }
+]
